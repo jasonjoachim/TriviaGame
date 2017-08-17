@@ -1,0 +1,13 @@
+body{
+    font-family: 'UnifrakturMaguntia', cursive;
+    text-align: center;
+    background-color: #100;
+    padding: 20px;
+    margin: 20px;}
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
