@@ -13,7 +13,7 @@ intervalId= setInterval(function(){
         clearInterval(intervalId=0);
         timeLeft=120;
     }
-    $("#timeLeft").html("You Have "+timeLeft+" Seconds Left")
+    $("#timeLeft").html("You Have "+timeLeft--+" Seconds Left")
     // console.log(timeLeft+"Seconds Left"+timeLeft--)
 
 },1000)
@@ -103,7 +103,9 @@ $(document).ready(function(){
         } else {
             noAnswers++;
         }
-        console.log(correctAnswers,wrongAnswers,noAnswers)
+        $("scores").html("You ended with"+correctAnswers+" Correct Answers "+wrongAnswers+" Wrong Answers "+noAnswers+" Unanswered Questions ");
+
+        console.log(correctAnswers,wrongAnswers,noAnswers);
     });
 
 
